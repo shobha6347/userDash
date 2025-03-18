@@ -82,7 +82,7 @@ import ServicesPage from "./Routes/ServicesPage";
 import CertificatePage from "./Routes/CertificatePage";
 import SearchByKeywordPage from "./Routes/SearchByKeywordPage";
 import SectorSchemes from "./components/SectorScheme";
-import SectorDetails from "./pages/SectorDetails";
+import SectorDetails from "./pages/SectorDetails.";
 import GovernmentSchemes from "./components/GovernmentSchemes";
 import Explore from "./components/Explore";
 import ExplorePage from "./Routes/ExplorePage";
