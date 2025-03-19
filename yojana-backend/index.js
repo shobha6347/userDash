@@ -141,7 +141,14 @@ app.get("/getYojanaType", async (req, res) => {
 });
 
 // Start the server
+// Start the server only if not in a Vercel environment
 const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => {
-    console.log(`🚀 Server running on port ${PORT}`);
-});
+
+if (process.env.NODE_ENV !== "production") {
+    app.listen(PORT, () => {
+        console.log(`🚀 Server running on port ${PORT}`);
+    });
+}
+
+// Export the app for Vercel
+module.exports = app;
