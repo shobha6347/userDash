@@ -1,3 +1,4 @@
+
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import en from "./locales/en.json";
@@ -18,3 +19,4 @@ i18n.use(initReactI18next).init({
 });
 
 export default i18n;
+>>>>>>> d6d559572a42b37db008aad243eaf5cfee34e04d

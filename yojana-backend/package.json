@@ -5,13 +5,18 @@
   "scripts": {
     "start": "node index.js",
     "build": "echo 'No build step required'",
+<<<<<<< HEAD
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js",
     "init-db": "node init-db.js"
+=======
+    "test": "echo \"Error: no test specified\" && exit 1"
+>>>>>>> d6d559572a42b37db008aad243eaf5cfee34e04d
   },
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
+<<<<<<< HEAD
     "express": "^4.21.2",
     "formidable": "^3.5.2",
     "multer": "^1.4.5-lts.2",
@@ -26,4 +31,12 @@
   "author": "",
   "license": "ISC",
   "description": ""
+=======
+    "express": "^4.18.2",
+    "mysql2": "^3.6.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+>>>>>>> d6d559572a42b37db008aad243eaf5cfee34e04d
 }

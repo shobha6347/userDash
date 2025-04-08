@@ -1,3 +1,4 @@
+
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useTranslation } from "react-i18next";
@@ -62,6 +63,11 @@ function App() {
     </Router>
   );
 }
+<<<<<<< HEAD
 export default App;
  
 
+=======
+
+export default App;
+>>>>>>> d6d559572a42b37db008aad243eaf5cfee34e04d
